@@ -1,0 +1,87 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header {
+    color: crimson;
+    background-color: turquoise;
+    height: 100px;
+    text-align: center;
+    border-bottom: 10px solid rgb(64, 157, 224);
+    position: fixed;
+    width: 100%;
+    display: inline;
+    line-height:50%;
+    margin-top: 0;
+    text-shadow: 1px 2px 2px rgb(0, 108, 98);
+}
+
+footer {
+    color: crimson;
+    background-color: turquoise;
+    height: 100px;
+    text-align: center;
+    border-bottom: 10px solid rgb(64, 157, 224);
+    text-shadow: 1px 2px 2px rgb(0, 108, 98);
+
+}
+
+body {
+    background-color: rgb(255, 123, 0);
+
+}
+
+figure {
+    text-align:center;
+
+}
+figcaption {
+    color:yellow;
+    text-align: center;
+    size: 1em;
+    font-weight: bolder;
+}
+form {
+    color: white;
+    text-align: center;
+    line-height: 15px;
+}
+h2,
+h4 {
+    color: red;
+    text-align: center;
+    line-height: 10px;
+}
+
+.image-padding {
+    /* Sets padding on all sides to 20px */
+    padding: 20px;
+    background-color: #fefe3b;
+  }
+  
+  .image-border {
+    /* Sets border on all sides */
+    border: 10px solid darkblue;
+  }
+  
+  .image-margin {
+    /* Sets all sides to 20px */
+    margin: 20px;
+  }
+  
+#header-font{
+    color: lightgoldenrodyellow;
+    word-spacing: 10px;
+}
+input {
+    color: black;
+}
+
+.link {
+    cursor: crosshair;
+}
+ a:hover {
+     color: orange;
+     background-color: rgb(3, 108, 98);
+     cursor: crosshair;
+ }
